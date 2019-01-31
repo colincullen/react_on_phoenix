@@ -1,4 +1,5 @@
 # React on Phoenix Minimal Setup
+This repo contains a reference version of a Phoenix scaffolding to which React has bee added. This implementation was created by following the instructions that follow. To view the change differences
 
 A minimal set of instructions for adding React to a Phoenix project
 I credit these instructions to the following website for this minimalist approach - with some minor changes and/or modifications:
