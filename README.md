@@ -81,4 +81,4 @@ Re-run the tests using Mix - all tests should pass now
 cd ..
 mix phx.server
 ```
-You should now see Hello, React! on the page at http://localhost:4000
+You should now see ```Hello, React!``` on the page at http://localhost:4000
