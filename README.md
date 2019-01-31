@@ -22,7 +22,8 @@ git commit -m 'Initial commit'
 ```
 git remote add origin https://github.com/[your account name]/react_on_phoenix.git
 ```
-#### Pull in the npm dependencies (per information found at: https://www.valentinog.com/blog/react-webpack-babel/)
+#### Pull in the npm dependencies
+(per information found at: https://www.valentinog.com/blog/react-webpack-babel/)
 
 Change your current working directory to the front-end part of the Phoenix 1.4 scaffold, which was setup when the Phoenix project was created by Mix in the first step
 ```
@@ -32,14 +33,17 @@ npm i @babel/core babel-loader @babel/preset-env @babel/preset-react react react
 Delete the content of the following files and replace it with the specified code
 As show by https://www.valentinog.com/blog/react-webpack-babel/
 
-
+```
 assets/.babelrc
+```
 ```
 {
   "presets": ["@babel/preset-env", "@babel/preset-react"]
 }
 ```
+```
 assets/js/app.js
+```
 ```javascript
 import React from 'react'
 import ReactDOM from 'react-dom'
