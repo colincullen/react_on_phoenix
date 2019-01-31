@@ -1,10 +1,12 @@
+#React on Phoenix Minimal Setup
+
 A minimal set of instructions for adding React to a Phoenix project
 I credit these instructions credits the following website for the minimalist approach - with some minor changes and/or modifications:
 https://dewetblomerus.com/2018/11/30/react-on-phoenix-1-4.html
 
 Create your new Phoenix project
 
-mix phx.new react_on_phoenix --no-ecto # Skipping the database to stay minimal
+mix phx.new react_on_phoenix --no-ecto # Skip the database to stay minimal
 
 Change your current working directory to the new project directory
 
