@@ -1,25 +1,29 @@
 A minimal set of instructions for adding React to a Phoenix project
-These instructions credits the following website for the minimalist approach - with some minor changes and/or modifications:
+I credit these instructions credits the following website for the minimalist approach - with some minor changes and/or modifications:
 https://dewetblomerus.com/2018/11/30/react-on-phoenix-1-4.html
 
-Create your new Phoenix project and enter it
+Create your new Phoenix project
 
 mix phx.new react_on_phoenix --no-ecto # Skipping the database to stay minimal
+
+Change your current working directory to the new project directory
+
 cd react_on_phoenix
 
 Commit the generated project to a local git repo
+
 git init
 git add .
-git commit -m 'initial commit'
+git commit -m 'Initial commit'
 
 Add the local repo to a remote github repo
-git remote add origin https://github.com/colincullen/react_on_phoenix.git
+git remote add origin https://github.com/[your repo]/react_on_phoenix.git
 
-Pull in the dependencies
+Pull in the dependencies (per information found at: https://www.valentinog.com/blog/react-webpack-babel/)
 
-As show by https://www.valentinog.com/blog/react-webpack-babel/
+Change your current working directory to the front-end part of the Phoenix 1.4 scaffold, which was set up
 
-cd assets # this is the front-end directory that was set up by Phoenix 1.4
+cd assets 
 npm i @babel/core babel-loader @babel/preset-env @babel/preset-react react react-dom --save-dev
 Delete the content of the following files and replace it with the specified code
 
