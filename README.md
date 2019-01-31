@@ -31,15 +31,15 @@ npm i @babel/core babel-loader @babel/preset-env @babel/preset-react react react
 ```
 Delete the content of the following files and replace it with the specified code
 As show by https://www.valentinog.com/blog/react-webpack-babel/
-```
-assets/.babelrc
 
+assets/.babelrc
+```
 {
   "presets": ["@babel/preset-env", "@babel/preset-react"]
 }
 ```
 assets/js/app.js
-```
+```javascript
 import React from 'react'
 import ReactDOM from 'react-dom'
 
