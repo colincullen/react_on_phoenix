@@ -1,5 +1,5 @@
 # React on Phoenix Minimal Setup
-This repo contains a Phoenix scaffolding to which React has bee added. This implementation was created using the instructions that follow. To view the change differences between a vanilla base Phoenix project and the same project after React has been added, review https://github.com/colincullen/react_on_phoenix/pull/1/commits/279768a3b3c69dc90a37f8fc5685663a4a239bd0
+This repo contains a Phoenix scaffolding to which React has bee added. This implementation was created using the instructions that follow. To view the change differences between a vanilla base Phoenix project and the same project after React has been added, review: https://github.com/colincullen/react_on_phoenix/pull/1/commits/279768a3b3c69dc90a37f8fc5685663a4a239bd0
 
 ## Instructions
 
