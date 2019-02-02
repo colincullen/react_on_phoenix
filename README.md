@@ -81,7 +81,7 @@ assert html_response(conn, 200) =~ "root"
 ```
 Re-run the tests using Mix - all tests should pass now
 
-#### Finally, from the root directory of the app, start the server
+#### Finally, from the project root directory of the app, start the server
 ```
 mix phx.server
 ```
